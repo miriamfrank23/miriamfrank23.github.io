@@ -11,3 +11,7 @@
   font-size: 30px;
   padding: 10%;
 }
+
+.navLink:hover {
+  text-shadow: 1px 1px 1px black;
+}
