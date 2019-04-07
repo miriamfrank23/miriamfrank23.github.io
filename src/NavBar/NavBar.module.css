@@ -1,8 +1,13 @@
 .bar {
   font-family: 'Roboto Mono', monospace;
-  font-size: 30px;
+  /* font-size: 30px; */
   margin: 5%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+.navLink {
+  font-size: 30px;
+  padding: 10%;
 }

@@ -6,13 +6,36 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 0%;
+  right: 0%;
+  padding: 2%;
+  background-color: rgba(189,199,214, 1);
+  background-color: rgba(147,154,181, 1);
+  background-color: rgba(194,195,208,1);
+  border-radius: 3px;
+  font-size: 20px;
 }
