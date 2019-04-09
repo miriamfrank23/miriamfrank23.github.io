@@ -25,7 +25,7 @@ a:visited {
 
 .App {
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   position: absolute;
   top: 5%;
@@ -33,9 +33,7 @@ a:visited {
   left: 0%;
   right: 0%;
   padding: 2%;
-  background-color: rgba(189,199,214, 1);
-  background-color: rgba(147,154,181, 1);
-  background-color: rgba(194,195,208,1);
+  /* background-color: rgba(194,195,208,1); */
   border-radius: 3px;
   font-size: 20px;
 }

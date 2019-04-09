@@ -1,6 +1,5 @@
 .bar {
   font-family: 'Roboto Mono', monospace;
-  /* font-size: 30px; */
   margin: 5%;
   display: flex;
   flex-direction: column;
@@ -9,9 +8,9 @@
 
 .navLink {
   font-size: 30px;
-  padding: 10%;
+  margin: 10%;
 }
 
 .navLink:hover {
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0 3px 1px rgba(194,195,208,1);
 }

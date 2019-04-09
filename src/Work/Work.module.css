@@ -2,5 +2,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
+}
+
+iframe {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.project {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width: 650px) {
+
+    iframe {
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  iframe {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
 }
