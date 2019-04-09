@@ -10,6 +10,12 @@ const Work = () => {
         <NavBar />
         <div className={style.main}>
           Projects
+          <div>
+            <iframe src="https://player.vimeo.com/video/310054916" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div>
+            <iframe src="https://player.vimeo.com/video/310059656" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     );
