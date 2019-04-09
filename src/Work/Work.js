@@ -8,7 +8,7 @@ const Work = () => {
     return (
       <div className='App'>
         <NavBar />
-        <div>
+        <div className={style.main}>
           Projects
         </div>
       </div>

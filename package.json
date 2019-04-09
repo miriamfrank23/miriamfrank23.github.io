@@ -2,7 +2,10 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://miriamfrank23.github.io/miriamfrank23.github.io",
+  "engines": {
+    "npm": "6.5.0",
+    "node": "11.6.0"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
