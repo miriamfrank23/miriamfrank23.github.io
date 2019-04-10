@@ -1,14 +1,12 @@
 .main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;	
+  row-gap: 5%;
 }
 
 iframe {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 95%;
 }
 
 .project {
@@ -16,27 +14,21 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  background-color: rgba(194,195,208,1);
+  border-radius: 3px;
+  padding: 1%;
+  border: black solid;
 }
 
 h3 {
   font-family: 'Roboto Mono', monospace;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1200px) {
 
-    iframe {
-      max-width: 200px;
-      max-height: 200px;
+    .main {
+      grid-template-columns: 80%;
     }
 
 }
 
-@media only screen and (max-width: 450px) {
-
-  iframe {
-    max-width: 100px;
-    max-height: 100px;
-  }
-
-}

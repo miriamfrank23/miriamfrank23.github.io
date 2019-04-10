@@ -1,10 +1,13 @@
 .about {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 5%;
-  position: relative;
+  display: grid;
+  grid-template-columns: 75%;
+  align-items: top;
+  justify-content: center;	
+  align-content: center;
+  row-gap: 5%;
+}
+
+span {
+  display:block;
 }
 

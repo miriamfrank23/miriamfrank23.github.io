@@ -9,9 +9,12 @@ const About = () => {
       <div className='App'>
         <NavBar />
         <div className={style.about}>
-          <p>
-          I'm a full stack web developer with a passion for solving problems and creating intuitive user interfaces. Combining my technical skills and background in research, I approach problems from a user-focused and data-driven view, producing clean and effective solutions.
-          </p>
+          <span>
+            I'm a full stack web developer with a passion for solving problems and creating intuitive user interfaces. Combining my technical skills and background in research, I approach problems from a user-focused and data-driven view, producing clean and effective solutions.
+          </span>
+          <span>
+            I also love running, reading mysteries, and watching The Office on an infinite loop.  
+          </span>
         </div>
       </div>
     );

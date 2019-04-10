@@ -14,3 +14,19 @@
 .navLink:hover {
   text-shadow: 0 3px 1px rgba(194,195,208,1);
 }
+
+@media only screen and (max-width: 650px) {
+
+  .navLink {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .navLink {
+    font-size: 1em;
+  }
+
+}
