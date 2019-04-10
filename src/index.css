@@ -27,6 +27,7 @@ a:visited {
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   display: flex;
   position: absolute;
   top: 5%;
@@ -39,9 +40,12 @@ a:visited {
   font-size: 20px;
 }
 
-#name {
-  margin: 2%;
-  font-size: 1.5em;
+.name {
+  margin: 1%;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 

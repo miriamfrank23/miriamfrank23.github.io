@@ -11,28 +11,28 @@ const Work = () => {
         <NavBar />
         <div className={style.main}>
           <div className={style.project}>
+          <iframe src="https://player.vimeo.com/video/310054916" width="640" height="400" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen={true} title='books'></iframe>
             <div className={style.info}>
               <h3>
                 Book Ends
               </h3>
-              <div>Web application for exploring, tracking, and chatting about mystery books</div><br/>
               <a href="https://github.com/miriamfrank23/Book-Ends-frontend">
-                <FontAwesome.FaGithub />
+              <FontAwesome.FaGithub />
               </a>
+              <div>Web application for exploring, tracking, and chatting about mystery books</div><br/>
             </div>
-            <iframe src="https://player.vimeo.com/video/310054916" width="640" height="400" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen={true} title='books'></iframe>
           </div>
           <div className={style.project}>
+          <iframe src="https://player.vimeo.com/video/310059656" width="640" height="400" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen={true} title='recipes'></iframe>
             <div className={style.info}>
               <h3>
                 Fantasy Recipes
               </h3>
-              <div>Fantasy-themed recipe site for sharing Harry Potter, Lord of the Rings, or Star Wars recipes with other fans</div><br/>
               <a href="https://github.com/miriamfrank23/Fantasy-Recipes-frontend">
-                <FontAwesome.FaGithub />
+              <FontAwesome.FaGithub />
               </a>
+              <div>Fantasy-themed recipe site for sharing Harry Potter, Lord of the Rings, or Star Wars recipes with other fans</div><br/>
             </div>
-            <iframe src="https://player.vimeo.com/video/310059656" width="640" height="400" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen={true} title='recipes'></iframe>
           </div>
           <div className={style.project}>
             <div className={style.info}>

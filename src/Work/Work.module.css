@@ -21,8 +21,9 @@ iframe {
 }
 
 h3 {
-  font-family: 'Roboto Mono', monospace;
+  margin: 1%;
 }
+
 
 @media only screen and (max-width: 1200px) {
 
