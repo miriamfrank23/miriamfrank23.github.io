@@ -8,6 +8,7 @@ const App = () => {
 
   return (
     <Router>
+    <h3 id='name'>Miriam Frank</h3>
         <div>
           <Route exact path="/" component ={ HomePage } />
           <Route exact path="/about" component ={ About } />

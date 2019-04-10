@@ -37,3 +37,10 @@ a:visited {
   border-radius: 3px;
   font-size: 20px;
 }
+
+#name {
+  margin: 2%;
+  font-size: 1.5em;
+}
+
+
