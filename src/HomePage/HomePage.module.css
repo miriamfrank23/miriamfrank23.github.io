@@ -14,14 +14,13 @@ img {
   justify-content: center;
 }
 
-svg {
-  height: 2em;
-  width: 2em;
-  margin: 0.5em;
-}
 
 .icons {
   display: flex;
+}
+
+a {
+  margin: 1%;
 }
 
 @media only screen and (max-width: 650px) {

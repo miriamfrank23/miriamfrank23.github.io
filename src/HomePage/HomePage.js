@@ -12,13 +12,9 @@ class HomePage extends Component {
         <div className={style.landingPage}>
           <img alt='' src={pic}/>
           <span>full stack developer based in Queens, NY</span>
-          <a href="mailto:miriamfrank23@gmail.com">miriamfrank23@gmail.com</a>
           <div className={style.icons}>
-            <a href="https://github.com/miriamfrank23"> 
-              <FontAwesome.FaGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/miriam-frank/"> 
-              <FontAwesome.FaLinkedin />
+            <a href="mailto:miriamfrank23@gmail.com">
+              miriamfrank23@gmail.com 
             </a>
           </div>
         </div>
@@ -27,5 +23,11 @@ class HomePage extends Component {
   }
 }
 
+// <a href="https://github.com/miriamfrank23"> 
+// GitHub
+// </a>
+// <a href="https://www.linkedin.com/in/miriam-frank/"> 
+// LinkedIn
+// </a>
 export default HomePage;
 
