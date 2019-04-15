@@ -5,10 +5,28 @@
   justify-content: center;	
   align-content: center;
   row-gap: 5%;
-  overflow: visible;
+  
 }
 
 span {
   display:block;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .about {
+      position: absolute;
+      margin: 20% 10% 10% 20%;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  .about {
+    position: absolute;
+    margin: 40% 20% 20% 40%;
+  }
+  
 }
 
