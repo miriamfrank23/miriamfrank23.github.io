@@ -45,6 +45,7 @@ a:visited {
   font-size: 2em;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+  position: fixed;
   /* font-family: 'Raleway', sans-serif; */
 }
 
