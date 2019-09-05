@@ -7,6 +7,7 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  animation: BackgroundFade 5s;
 }
 
 
@@ -24,6 +25,15 @@ a:visited {
   color: black;
 }
 
+@keyframes BackgroundFade {
+  0% {
+    background-color: rgba(194,195,208,1);
+  }
+  100% {
+    background-color: white;
+  }
+}
+
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -35,16 +45,25 @@ a:visited {
   left: 0%;
   right: 0%;
   padding: 2%;
-  /* background-color: rgba(194,195,208,1); */
-  border-radius: 3px;
   font-size: 20px;
 }
 
 .name {
-  margin: 1%;
+  margin: 15px 25px;
   font-size: 2em;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 667px) {
+  .App {
+    flex-direction: column;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+  }
+} 
 
 

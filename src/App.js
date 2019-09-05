@@ -1,14 +1,14 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, NavLink} from "react-router-dom";
-import HomePage from './HomePage/HomePage.js';
-import About from './About/About.js';
-import Work from './Work/Work.js';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import HomePage from "./HomePage/HomePage.js";
+import About from "./About/About.js";
+import Work from "./Work/Work.js";
 
-const App = () => {
+const App = (props) => {
 
   return (
     <Router>
-    <div className='name'>Miriam Frank</div>
+    <a className="name" href="./">Miriam Frank</a>
         <div>
           <Route exact path="/" component ={ HomePage } />
           <Route exact path="/about" component ={ About } />

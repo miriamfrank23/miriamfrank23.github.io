@@ -1,7 +1,7 @@
 .main {
   display: grid;
   grid-template-columns: 50% 50%;
-  justify-content: center;	
+  justify-content: center;
   row-gap: 5%;
 }
 
@@ -14,42 +14,35 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(194,195,208,1);
+  background-color: rgba(194, 195, 208, 1);
   border-radius: 3px;
   padding: 1%;
   border: black solid;
-  word-break: break-word;
 }
 
 h3 {
   margin: 1%;
 }
 
-
 @media only screen and (max-width: 1200px) {
-
-    .main {
-      grid-template-columns: 80%;
-    }
-
+  .main {
+    grid-template-columns: 80%;
+  }
 }
 
-@media only screen and (max-width: 650px) {
-
-    .main {
-      position: absolute;
-      margin: 20% 10% 10% 20%;
-    }
-
-}
-
-@media only screen and (max-width: 300px) {
-
+@media only screen and (max-width: 667px) {
   .main {
     position: absolute;
-    margin: 40% 20% 20% 40%;
+    top: 25%;
   }
-  
+
+  .project {
+    word-break: break-word;
+  }
 }
 
-
+@media only screen and (max-width: 374px) {
+  .main {
+    top: 30%;
+  }
+}

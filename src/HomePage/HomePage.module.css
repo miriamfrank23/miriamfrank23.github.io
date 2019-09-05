@@ -3,7 +3,28 @@ img {
   max-height: 350px;
   border-radius: 50%;
   margin: 1%;
-  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 1px #00000080;
+  animation: fadeIn 500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .landingPage {
@@ -14,33 +35,33 @@ img {
   justify-content: center;
 }
 
+.description {
+  margin-top: 20px;
+  animation: fadeInUp 500ms;
+}
+
 
 .icons {
   display: flex;
+  animation: fadeInUp 500ms;
 }
 
 a {
   margin: 1%;
 }
 
-.email {
-  word-break: break-word;
-}
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 667px) {
 
     img {
-      max-width: 200px;
-      max-height: 200px;
+      max-width: 250px;
+      max-height: 250px;
+    }
+    
+    .email {
+        white-space: nowrap;
     }
 
 }
 
-@media only screen and (max-width: 450px) {
 
-  img {
-    max-width: 100px;
-    max-height: 100px;
-  }
-
-}

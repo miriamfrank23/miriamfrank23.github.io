@@ -8,25 +8,20 @@
   
 }
 
-span {
-  display:block;
-}
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 667px) {
 
     .about {
       position: absolute;
-      margin: 20% 10% 10% 20%;
+      top: 25%;
     }
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 374px) {
 
   .about {
-    position: absolute;
-    margin: 40% 20% 20% 40%;
+    top: 30%;
   }
-  
+
 }
 
