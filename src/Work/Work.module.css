@@ -3,30 +3,40 @@
   grid-template-columns: 50% 50%;
   justify-content: center;
   row-gap: 5%;
-}
-
-iframe {
-  max-width: 95%;
+  column-gap: 5%;
+  padding-left: 100px;
 }
 
 .project {
   margin: 2%;
+  height: 200px;
+  max-width: 400px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(194, 195, 208, 1);
+  justify-content: center;
   border-radius: 3px;
-  padding: 1%;
-  border: black solid;
+  padding: 2%;
+  /* border: black solid; */
+  /* background-color: white; */
+}
+
+.project a {
+  font-size: 30px;
+  transition: all 500ms ease-in-out;
+}
+
+.project a:hover {
+  color: rgba(194, 195, 208, 1);
 }
 
 h3 {
   margin: 1%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .main {
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
   }
 }
 
@@ -34,6 +44,7 @@ h3 {
   .main {
     position: absolute;
     top: 25%;
+    padding: 0;
   }
 
   .project {

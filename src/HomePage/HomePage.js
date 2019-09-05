@@ -11,7 +11,7 @@ class HomePage extends Component {
         <NavBar />
         <div className={style.landingPage}>
           <img alt='' src={pic}/>
-          <div className={style.description}>full stack developer based in Queens, NY</div>
+          <div className={style.description}>software engineer based in Queens, NY</div>
           <div className={style.icons}>
             <a href="mailto:miriamfrank23@gmail.com" className={style.email}>
               miriamfrank23@gmail.com

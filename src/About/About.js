@@ -10,7 +10,7 @@ const About = () => {
         <NavBar />
         <div className={style.about}>
           <span>
-            I'm a full stack web developer with a passion for solving problems and creating intuitive user interfaces. Combining my technical skills and background in research, I approach problems from a user-focused and data-driven view, producing clean and effective solutions.
+            I'm a full stack web developer with a passion for solving problems and creating intuitive user interfaces. I approach problems from a user-focused and data-driven view, producing clean and effective solutions.
           </span>
           <span>
             I also love running, reading mysteries, and watching The Office on an infinite loop.  

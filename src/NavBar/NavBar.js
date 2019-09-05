@@ -14,7 +14,7 @@ const NavBar = () => {
           About
         </NavLink>
         <NavLink to="/work" className={style.navLink}>
-          Work
+          Projects
         </NavLink>
       </div>
     );
