@@ -20,8 +20,8 @@
   font-size: 1.5em;
   font-weight: 400;
   margin: 10%;
-  transition: all 500ms ease-in-out;
-  animation: fadeInLeft 500ms;
+  transition: all 600ms ease-in-out;
+  animation: fadeInLeft 600ms;
 }
 
 .navLink:hover {
