@@ -1,59 +1,43 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .main {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-content: center;
-  row-gap: 5%;
-  column-gap: 5%;
-  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  animation: fadeInUp 500ms;
 }
 
 .project {
-  margin: 2%;
-  height: 200px;
-  max-width: 400px; 
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  border-radius: 3px;
-  padding: 2%;
-  /* border: black solid; */
-  /* background-color: white; */
 }
 
 .project a {
-  font-size: 30px;
-  transition: all 600ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .project a:hover {
   color: rgba(194, 195, 208, 1);
 }
 
-h3 {
-  margin: 1%;
-}
-
-@media only screen and (max-width: 1300px) {
-  .main {
-    grid-template-columns: 100%;
-  }
-}
-
 @media only screen and (max-width: 667px) {
   .main {
     position: absolute;
-    top: 25%;
-    padding: 0;
+    top: 10%;
+    padding: 0 20px;
   }
 
   .project {
     word-break: break-word;
-  }
-}
-
-@media only screen and (max-width: 374px) {
-  .main {
-    top: 30%;
   }
 }

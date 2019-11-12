@@ -1,16 +1,3 @@
-.landingPage {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-img {
-  height: 100vh;
-  width: 50vw;
-  animation: fadeIn 600ms;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -31,27 +18,39 @@ img {
   }
 }
 
+img {
+  height: 100%;
+  animation: fadeIn 100ms;
+}
+
+.leftContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .description {
-  margin-top: 20px;
-  animation: fadeInUp 600ms;
+  animation: fadeInUp 500ms;
+  text-align: center;
+}
+
+.email {
+  color: #000000;
 }
 
 .icons {
   display: flex;
-  animation: fadeInUp 600ms;
-}
-
-a {
-  margin: 1%;
+  animation: fadeInUp 500ms;
 }
 
 @media only screen and (max-width: 667px) {
-  img {
-    max-width: 250px;
-    max-height: 250px;
-  }
-
   .email {
     white-space: nowrap;
+  }
+  .leftContainer {
+    position: relative;
+    top: 30%;
   }
 }
